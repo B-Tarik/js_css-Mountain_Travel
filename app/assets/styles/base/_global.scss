@@ -1,0 +1,14 @@
+section {
+    padding: 50px 0;
+}
+
+section:not(.hero):nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+@mixin at800 {
+    section {
+        padding: 100px 20px;
+    }
+}
+

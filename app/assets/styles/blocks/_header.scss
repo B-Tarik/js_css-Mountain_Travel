@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 20px 30px;
+    animation: fadein 1s forwards .5s;
+    opacity: 0;
+    color: #fff;
+    z-index: 5;
+}
+
+@keyframes fadein {
+    100% {
+        opacity: 1;
+    }
+}
+
+.logo {
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 15px;
+}
+
+.logo a {
+    
+    font-size: 2.7rem;
+}
+
+.header__nav {
+    display: flex;
+    margin-right: 0;
+}
+
+.header__li {
+    padding: 0 1.5em;
+}
+
+@mixin at355 {
+    .header {
+        padding: 20px 30px;
+    }
+    .logo a {
+        font-size: 2.7rem;
+    }
+}
+
+@mixin at800 {
+    .header {
+        padding: 35px 100px 0;
+        flex-direction: row;
+    }
+
+    .logo {
+        margin-bottom: 0;
+    }
+
+    .logo a {
+        font-size: 1.6rem;
+    }
+
+    .header__nav {
+        margin-right: -15px;
+    }
+}

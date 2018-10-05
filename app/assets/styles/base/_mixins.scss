@@ -1,0 +1,23 @@
+@define-mixin at355 {
+    @media(min-width: 355px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin at800 {
+    @media(min-width: 800px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin at1000 {
+    @media(min-width: 1000px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin at1100 {
+    @media(min-width: 1100px) {
+        @mixin-content;
+    }
+}

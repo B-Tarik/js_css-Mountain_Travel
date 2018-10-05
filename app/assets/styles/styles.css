@@ -1,0 +1,19 @@
+@import "normalize.css"; /* the name of the dependencie */
+
+@import "base/_variables.scss";
+@import "base/_base.scss";
+@import "base/_mixins.scss";
+@import "base/_global.scss";
+
+@import "modules/_button.scss";
+
+@import "blocks/_header.scss";
+@import "blocks/_section-title.scss";
+@import "blocks/_hero.scss";  
+@import "blocks/_destination.scss";
+@import "blocks/_packages.scss";
+@import "blocks/_testimonials.scss";
+@import "blocks/_contact.scss";
+@import "blocks/_footer.scss";
+
+

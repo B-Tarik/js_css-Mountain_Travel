@@ -1,0 +1,44 @@
+
+.packages__grid {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.packages-grid {
+    max-width: 1380px;
+    margin: auto;
+}
+
+.packages-grid__li {
+    flex-basis: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.packages-grid__li:nth-last-child(-n+2) {
+    padding-bottom: 0;
+}
+
+.packages-grid__li i {
+    color: $main-color;
+}
+
+.packages-grid__title {
+    font-size: 2.5rem;
+    margin: 25px 0;
+}
+
+.packages-grid__text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+@mixin at800 {
+    .packages-grid__li {
+        padding: 50px;
+        flex-basis: 50%;
+    }
+    .packages-grid__title {
+        font-size: 3rem;
+    }
+}
