@@ -1,7 +1,7 @@
 About the project:
 ============
 
-it's single page website.
+it's single page website.  
 link : https://b-tarik.github.io/js_css-Mountain_Travel/
 
 ### Details
