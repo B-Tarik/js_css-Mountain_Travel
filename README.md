@@ -14,6 +14,8 @@ made with:
 
 3. Responsive layout
 
+4. Responsive Images
+
 ### What Technologies Used
 
 **Front-end:** lazysizes, picturefill
