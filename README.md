@@ -2,7 +2,7 @@ About the project:
 ============
 
 it's single page website.  
-link : https://b-tarik.github.io/js_css-Mountain_Travel/
+link : https://b-tarik.github.io/js_css-mountain_Travel/
 
 ### Details
 
