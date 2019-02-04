@@ -6,7 +6,7 @@ link : https://b-tarik.github.io/js_css-mountain_Travel/
 
 ### Details
 
-made with:
+Using:
 
 1. CSS: BEM methodology
 
